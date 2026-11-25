@@ -1,0 +1,11 @@
+{
+  "ModId": "p4g64.compendiumArcana",
+  "ModName": "Compendium Arcana",
+  "ModAuthor": "Kanasara",
+  "ModVersion": "0.1.1",
+  "ModDescription": "Registered Personas count toward matching Arcana bonuses during Social Links.",
+  "ModDll": "CompendiumArcana.dll",
+  "SupportedAppId": ["p4g.exe"],
+  "ModDependencies": ["reloaded.sharedlib.hooks"],
+  "CanUnload": false
+}

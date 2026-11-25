@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Reloaded.Mod.Interfaces" HintPath="$(ReloadedDir)/Reloaded.Mod.Interfaces.dll" Private="false"/>
+    <Reference Include="Reloaded.Hooks.Definitions" HintPath="$(HooksDll)" Private="true"/>
+    <EmbeddedResource Include="preview.bin;points.bin;display.bin"/>
+  </ItemGroup>
+</Project>
